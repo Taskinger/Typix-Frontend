@@ -1,11 +1,13 @@
-import './App.css'
+import React from 'react'
+import Navbar from './Components/Navbar/Navbar'
+import Header from './Components/Header/Header'
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className='bg-[#050A30] h-screen'>
+      <Navbar />
+      <Header />
+    </div>
   )
 }
 
