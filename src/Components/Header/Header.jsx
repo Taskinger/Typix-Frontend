@@ -4,7 +4,7 @@ import bannerImg from '../../assets/banner.svg';
 
 const Header = () => {
     return (
-        <div className="header grid grid-cols-2 p-15">
+        <div className="header grid grid-cols-2 p-15 border-b border-[#9E9E9E]">
             <div className="headerInfo  pl-16 flex flex-col justify-center gap-2.5">
                 <h1 className="text-9xl text-white font-jockey tracking-wide font-bold">Where Ideas <br /> Meets a Voice . </h1>
                 <p className='font-jetbrains text-white font-extralight text-2xl'>A platform for creators and writers . <br />
