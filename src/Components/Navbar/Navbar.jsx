@@ -9,8 +9,8 @@ const Navbar = () => {
     <>
       <div className="navbar flex justify-between items-center w-full bg-[#1A1A2E] h-[85px] p-4">
         <Icon
-          h1ClassName={'text-4xl font-medium font-jockey text-white'}
-          imgClassName={'w-12 h-12 rounded-full shadow-lg'}
+          h1ClassName={'text-2xl sm:text-4xl font-medium font-jockey text-white'}
+          imgClassName={'w-8 h-8 sm:w-12 sm:h-12 rounded-full shadow-lg'}
         />
         <Navigation />
       </div>

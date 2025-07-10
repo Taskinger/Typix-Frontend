@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div>
       <nav>
-        <ul>
+        <ul className='hidden sm:block'>
             {navLinks.map((nav) => (
                 <li key={nav.id} className="inline-block mr-6">
                     <a href={nav.link} className="text-white hover:text-gray-400 duration-500 font-jockey">
