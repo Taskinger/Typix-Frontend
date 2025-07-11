@@ -5,7 +5,7 @@ const Icon = ({h1ClassName, imgClassName}) => {
         <div>
             <div className="icon flex gap-1 items-center">
                 <img src="/logo.svg" className={imgClassName} alt="" />
-                <h1 id='icon-logo' className={h1ClassName}>Typix.</h1>
+                <h1 className={h1ClassName}>Typix.</h1>
             </div>
         </div>
     )

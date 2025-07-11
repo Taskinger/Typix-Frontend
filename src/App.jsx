@@ -5,11 +5,12 @@ import Stats from './Components/Stats/Stats'
 
 const App = () => {
   return (
-    <div className='bg-[#050A30]'>
+    <div className="bg-[#050A30] min-h-screen">
       <Navbar />
       <Header />
       <Stats />
     </div>
+
   )
 }
 
