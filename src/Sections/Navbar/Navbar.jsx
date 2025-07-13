@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Icon from '../Icon/Icon';
-import Navigation from '../Navigation/Navigation';
+import Icon from '../../Components/Icon/Icon.jsx';
+import Navigation from '../../Components/Navigation/Navigation.jsx';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -10,8 +10,8 @@ const HeaderInfo = () => {
             <p className='font-jetbrains text-white font-extralight text-[15px] lg:text-2xl'>A platform for creators and writers . <br />
                 Share your stories, or explore blogs</p>
             <div className="buttons flex flex-col lg:flex-row gap-4 m-1">
-                <Button className={'px-8 py-4 font-jetbrains outline-1 text-white cursor-pointer rounded-xl hover:bg-[#7EC8E3] duration-500 transition'}>Explore Blogs</Button>
-                <Button className={'px-8 py-4 font-jetbrains hover:outline-1 text-white cursor-pointer rounded-xl  bg-[#7EC8E3] hover:bg-transparent duration-500 transition'}>Start Writing</Button>
+                <Button className={'px-8 py-4 font-jetbrains outline-1 text-white cursor-pointer rounded-xl hover:bg-white/10 hover:backdrop-blur-lg hover:border hover:border-white/20 duration-500 transition'}>Explore Blogs</Button>
+                <Button className={'px-8 py-4 font-jetbrains hover:outline-1 text-white cursor-pointer rounded-xl  bg-white/10 backdrop-blur-lg border border-white/20 hover:bg-transparent duration-500 transition'}>Start Writing</Button>
             </div>
         </div>
     )

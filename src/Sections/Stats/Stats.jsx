@@ -1,5 +1,4 @@
-import React from 'react'
-import StatsCard from '../StatsCard/StatsCard'
+import StatsCard from '../../Components/StatsCard/StatsCard.jsx'
 
 const Stats = () => {
     return (
